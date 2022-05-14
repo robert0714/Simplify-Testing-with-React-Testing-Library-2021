@@ -11,7 +11,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
 import React, { Component, Fragment } from 'react';
-import uuidv4 from 'uuid/v4';
+import { v4 as uuidv4 } from 'uuid';
 import categories from '../data/categories';
 
 const styles = (theme) => ({
