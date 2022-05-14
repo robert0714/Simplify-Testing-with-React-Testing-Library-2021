@@ -24,7 +24,7 @@ describe('Integration: Budget App', () => {
     setOneDollarIncome();
     const leftOverBudget = screen.getByText(/left over:/i);
     const leftOverBudgetAmount = within(leftOverBudget).getByText(/\$1/i);
-
+    
     expect(leftOverBudgetAmount).toBeInTheDocument();
     expect(
       screen.getByRole('heading', { name: /income: \$1/i })

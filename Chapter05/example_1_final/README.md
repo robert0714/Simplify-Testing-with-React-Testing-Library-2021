@@ -46,3 +46,16 @@ npm start
 ```bash
 npm test
 ```
+## Inspect the dependencies
+```shell
+npm ls chokidar
+the-budget-app@1.0.0 D:\tmp\Simplify-Testing-with-React-Testing-Library-2021\Chapter05\example_1_final
+└─┬ react-scripts@5.0.1
+  ├─┬ react-dev-utils@12.0.1
+  │ └─┬ fork-ts-checker-webpack-plugin@6.5.2
+  │   └── chokidar@3.5.3 deduped
+  ├─┬ tailwindcss@3.0.24
+  │ └── chokidar@3.5.3
+  └─┬ webpack-dev-server@4.9.0
+    └── chokidar@3.5.3 deduped
+```

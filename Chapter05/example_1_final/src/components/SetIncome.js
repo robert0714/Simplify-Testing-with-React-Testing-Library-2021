@@ -8,7 +8,7 @@ import {
 } from '@material-ui/core';
 import green from '@material-ui/core/colors/green';
 import {
-  createMuiTheme,
+  createTheme,
   MuiThemeProvider,
   withStyles,
 } from '@material-ui/core/styles';
@@ -16,7 +16,7 @@ import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
 import React, { Component, Fragment } from 'react';
 
-const addIncomeBtnTheme = createMuiTheme({
+const addIncomeBtnTheme = createTheme({
   palette: {
     secondary: green,
   },

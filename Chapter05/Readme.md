@@ -70,3 +70,4 @@ Finally, we assert that **leftOverBudgetAmount** is in the DOM. For the next tes
     user.click(screen.getByText(/add budget/i));
   }
 ```
+In the previous code, we create a function, **createCarBudget**, to reduce the repetitive steps of creating a budget that will be used in multiple test cases. A default value of **5** will be used if no value for the **amount** parameter is passed as an argument to the function. Next, we will write [the main test code](./example_1_final/src/components/App.test.js#L34-L42):
