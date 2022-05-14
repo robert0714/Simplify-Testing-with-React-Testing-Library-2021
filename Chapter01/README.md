@@ -38,3 +38,11 @@ npm start
 ```bash
 npm test
 ```
+### Replace Enzyme with React Testing Library
+
+* https://github.com/srodrigo/anime-suupu/issues/50
+* https://dev.to/wojtekmaj/enzyme-is-dead-now-what-ekl
+
+There are no plans yet to support React 18 ``https://github.com/enzymejs/enzyme/issues/2524#issuecomment-860784387``
+
+* [Migrate from Enzyme](https://testing-library.com/docs/react-testing-library/migrate-from-enzyme)
