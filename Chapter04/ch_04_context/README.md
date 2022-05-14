@@ -41,3 +41,6 @@ npm start
 ```bash
 npm test
 ```
+## Restriction Version 
+* faker is only use 5.x.
+* faker is only use 13.x.
