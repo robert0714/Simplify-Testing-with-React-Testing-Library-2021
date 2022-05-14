@@ -2,15 +2,10 @@
   "name": "ch_02",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "11.2.5",
-    "@testing-library/user-event": "^13.0.7",
-    "@types/faker": "^5.1.7",
-    "@types/jest": "^26.0.21",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
+  "dependencies": {   
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,8 +29,13 @@
     ]
   },
   "devDependencies": {
-    "faker": "^5.4.0",
-    "prettier": "2.2.1",
-    "prop-types": "^15.7.2"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "13.2.0",
+    "@testing-library/user-event": "^14.2.0",
+    "@types/faker": "^6.6.8",
+    "@types/jest": "^27.5.1",
+    "faker": "^6.6.6",
+    "prettier": "2.6.2",
+    "prop-types": "^15.8.1"
   }
 }
