@@ -42,3 +42,11 @@ npm start
 ```bash
 npm test
 ```
+
+## For React 17+ 
+```shell
+npm install --save --legacy-peer-deps @material-ui/core
+npm install --save --legacy-peer-deps @material-ui/icons
+```
+But React 18 not compatible
+* https://github.com/mui/material-ui/issues/32074
